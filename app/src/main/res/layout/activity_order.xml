@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_layout_order"
+    android:background="@color/colorWhite"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".ActivityOrder">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/toolbar_order"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/back_btn_layout"
+                android:layout_width="50dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/btn_back_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/ic_arrow_back_white_24dp" />
+            </RelativeLayout>
+
+            <com.mancj.materialsearchbar.MaterialSearchBar
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="6dp"
+                app:mt_textColor="@color/colorWhite"
+                app:mt_backIconDrawable="@drawable/ic_view_list_green_24dp"
+                app:mt_backIconTint="@color/colorWhite"
+                app:mt_clearIconTint="@color/colorWhite"
+                app:mt_hint="Tìm kiếm"
+                app:mt_hintColor="#C3C3C3"
+                app:mt_placeholder="Tìm kiếm order..."
+                app:mt_placeholderColor="#C3C3C3"
+                app:mt_roundedSearchBarEnabled="true"
+                app:mt_searchBarColor="@color/colorPrimary"
+                app:mt_searchIconTint="@color/colorWhite"
+                app:mt_speechMode="false" />
+        </LinearLayout>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:ms_background_color="@color/colorPrimaryDark"
+            app:ms_arrow_tint="@color/white"
+            android:textSize="15sp"
+            android:text="1B Cộng Hòa, Phường 4, Tân Bình, Hồ Chí Minh"
+            android:textColor="@color/white"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content_order">
+            <include layout="@layout/empty_order_layout" android:id="@+id/empty_order_layout"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_above="@id/bot_bar"
+                android:id="@+id/order_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <android.support.design.widget.BottomNavigationView
+                android:id="@+id/bot_bar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_alignParentBottom="true"
+                app:itemBackground="@color/colorPrimaryDark"
+                app:itemIconTint="@color/nav_bar_style"
+                app:itemTextColor="@color/nav_bar_style"
+                app:menu="@menu/show_order_menu"/>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/search_order_list"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</android.support.v4.widget.SwipeRefreshLayout>

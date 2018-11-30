@@ -1,0 +1,74 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="cardViewStyle">@style/CardView</item>
+    </style>
+
+    <style name="AppTheme.GreenRipple">
+        <item name="colorControlHighlight">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light">
+        <item name="android:colorAccent">#FFFFFF</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+    </style>
+
+    <style name="RobotoBoldTextAppearance">
+        <item name="android:fontFamily">serif-monospace</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CollapsedAppbar" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="ExpandedAppbar" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="AppbarUser" parent="@android:style/TextAppearance.Material.Title">
+        <item name="android:textSize">0sp</item>
+    </style>
+
+    <style name="RatingDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:background">@color/colorWhite</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/RatingDialogButton</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/RatingDialogButton</item>
+    </style>
+
+    <style name="RatingDialogButton" parent="Widget.AppCompat.Button.ButtonBar.AlertDialog">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+    </style>
+
+    <style name="RatingDialogFadeAnim">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimaryDark</item>
+        <item name="colorControlActivated">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="MyTheme.TranslucentNavigation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">14sp</item>
+    </style>
+</resources>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    android:padding="15sp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Choose Hot Drink Image"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/choose_image_hot"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimaryTransparent">
+
+        <ImageView
+            android:id="@+id/image_hot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ico_hot" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:text="Choose Cold Drink Image"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <RelativeLayout
+        android:id="@+id/choose_image_cold"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryTransparent">
+
+        <ImageView
+            android:id="@+id/image_cold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ico_cold" />
+    </RelativeLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_name_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:drawablePadding="5dp"
+        android:hint="Nhập tên..."
+        app:met_iconPadding="5dp"
+        app:met_maxCharacters="40"
+        app:met_textColor="@color/colorBlack" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/edt_price_drink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_edit_black_24dp"
+        android:drawablePadding="5dp"
+        android:hint="Nhập giá..."
+        android:inputType="number"
+        app:met_iconPadding="5dp"
+        app:met_maxCharacters="40"
+        app:met_textColor="@color/colorBlack" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/cancel_dialog_drink"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="16dp"
+                android:layout_marginRight="20dp"
+                android:shadowColor="@color/colorBlack"
+                android:text="Cancel"
+                android:textColor="@color/colorWhite"
+                app:cornerRadius="10dp"
+                app:fButtonColor="@color/colorCancel"
+                app:shadowColor="@color/colorBlack"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+
+            <info.hoang8f.widget.FButton
+                android:id="@+id/accept_btn_drink"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="16dp"
+                android:shadowColor="@color/colorBlack"
+                android:text="Accept"
+                android:textColor="@color/colorWhite"
+                app:cornerRadius="10dp"
+                app:fButtonColor="@color/colorPrimaryDark"
+                app:shadowColor="@color/colorBlack"
+                app:shadowEnabled="true"
+                app:shadowHeight="5dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

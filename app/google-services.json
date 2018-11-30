@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "741733830339",
+    "firebase_url": "https://phuclongapp-ee0a1.firebaseio.com",
+    "project_id": "phuclongapp-ee0a1",
+    "storage_bucket": "phuclongapp-ee0a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741733830339:android:581b5df420842ce7",
+        "android_client_info": {
+          "package_name": "com.dhkhtn.xk.phuclongserverappver2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741733830339-mbis47t2j3hjermt8iodk341531o5jkc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhkhtn.xk.phuclongserverappver2",
+            "certificate_hash": "b8c270333de1dbe4d8f6fdd4dbecaf8074532f72"
+          }
+        },
+        {
+          "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDl26NZi1_VMsbQMzPYVyxL_DdRALtzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741733830339:android:d622b744314b96ef",
+        "android_client_info": {
+          "package_name": "com.phonglongapp.xk.phuclongapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741733830339-g3bt9noih8bqoi73i9ouviaq35u87gla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonglongapp.xk.phuclongapp",
+            "certificate_hash": "b8c270333de1dbe4d8f6fdd4dbecaf8074532f72"
+          }
+        },
+        {
+          "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDl26NZi1_VMsbQMzPYVyxL_DdRALtzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741733830339:android:cc0b8dfe62f11f9a",
+        "android_client_info": {
+          "package_name": "com.phonglongapp.xk.phuclongserverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741733830339-1dnaeqv6r3vaccjo2lj0rrgsbuesv4hn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phonglongapp.xk.phuclongserverapp",
+            "certificate_hash": "b8c270333de1dbe4d8f6fdd4dbecaf8074532f72"
+          }
+        },
+        {
+          "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDl26NZi1_VMsbQMzPYVyxL_DdRALtzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:741733830339:android:c167b110f6e3c40a",
+        "android_client_info": {
+          "package_name": "com.phuclongappv2.xk.phuclongappver2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "741733830339-tverkg1mdlnfivh7cqhss07nne1kd1e1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.phuclongappv2.xk.phuclongappver2",
+            "certificate_hash": "b8c270333de1dbe4d8f6fdd4dbecaf8074532f72"
+          }
+        },
+        {
+          "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzDl26NZi1_VMsbQMzPYVyxL_DdRALtzU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "741733830339-0vmgndd6e5ufm6nj3k1pumnn6cf8ggt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

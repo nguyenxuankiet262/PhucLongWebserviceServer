@@ -1,0 +1,10 @@
+<resources>
+  <string name="app_name">PL Manager</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="map_api_key">AIzaSyCwL7g9mCJodrBQUyojiZapTobF4q7Y3yY</string>
+  <string name="nav_header_title">Phúc Long Manager</string>
+  <string name="nav_header_subtitle">phuclongvn@gmail.com</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

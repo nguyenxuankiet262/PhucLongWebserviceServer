@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="colorPrimary">#176939</color>
+  <color name="colorPrimaryDark">#0d5525</color>
+  <color name="colorAccent">#0d5525</color>
+  <color name="colorWhite">#FFFFFF</color>
+  <color name="colorBlack">#000000</color>
+  <color name="colorCancel">#FF0000</color>
+  <color name="colorWhitetoTransparent">#80FFFFFF</color>
+  <color name="colorPrimaryTransparent">#800d5525</color>
+  <color name="colorTextView">#757575</color>
+  <color name="colorClick">#80176939</color>
+  <color name="colorBackground">#FAFAFA</color>
+  <color name="colorDesperate">#888888</color>
+  <color name="colorOpenStore">#03ae03</color>
+  <color name="colorDetails">#5da0de</color>
+  <color name="colorOTW">#113ddb</color>
+  <color name="colorSc">#efef00</color>
+  <color name="colorSearchBar">#E6E6E6</color>
+  <color name="colorTabText">#24af47</color>
+  <color name="colorBadge">#F44336</color>
+</resources>

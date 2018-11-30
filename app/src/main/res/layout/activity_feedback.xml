@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/swipe_layout_feedback"
+    android:background="@color/colorWhite"
+    tools:context=".ActivityFeedback">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/tool_bar_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:title="FEEDBACK"
+            app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
+            app:titleTextColor="@color/colorWhite"
+            app:titleTextAppearance="@style/CollapsedAppbar"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="2dp"
+            android:scrollbars="vertical"
+            />
+    </LinearLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

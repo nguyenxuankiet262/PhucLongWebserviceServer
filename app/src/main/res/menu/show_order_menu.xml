@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/order_new"
+        android:enabled="true"
+        android:title="New"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_fiber_new_black_24dp"/>
+    <item
+        android:id="@+id/order_ontheway"
+        android:enabled="true"
+        android:title="On the way"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_local_shipping_black_24dp"/>
+    <item
+        android:id="@+id/order_paid"
+        android:enabled="true"
+        android:title="Paid"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_monetization_on_black_24dp"/>
+    <item
+        android:id="@+id/order_remove"
+        android:enabled="true"
+        android:title="Remove"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_remove_shopping_cart_black_24dp"/>
+</menu>

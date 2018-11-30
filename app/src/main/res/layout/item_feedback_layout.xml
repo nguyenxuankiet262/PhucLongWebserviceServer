@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/colorWhite"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="5dp">
+    <LinearLayout
+        android:id="@+id/layout_store"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/id_feedback"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"
+            android:gravity="center"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/content_feedback"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Best app everasdasdasdasdasdasd"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="start|center"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+            <TextView
+                android:visibility="visible"
+                android:id="@+id/notreply_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Not reply yet"
+                android:layout_gravity="center"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/ic_more_horiz_grey_24dp"
+                />
+            <TextView
+                android:visibility="invisible"
+                android:id="@+id/reply_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Replied"
+                android:textColor="@color/colorOpenStore"
+                android:layout_gravity="center"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/ic_check_green_18dp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
