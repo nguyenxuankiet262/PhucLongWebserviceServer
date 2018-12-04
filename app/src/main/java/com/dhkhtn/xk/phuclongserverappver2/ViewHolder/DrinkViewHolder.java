@@ -32,7 +32,7 @@ public class DrinkViewHolder extends RecyclerView.ViewHolder implements View.OnC
     public void setItemClickListener(ItemClickListener itemClickListener, ItemLongClickListener itemLongClickListener)
     {
         this.itemClickListener = itemClickListener;
-        this.itemLongClickListener = this.itemLongClickListener;
+        this.itemLongClickListener = itemLongClickListener;
     }
 
     @Override

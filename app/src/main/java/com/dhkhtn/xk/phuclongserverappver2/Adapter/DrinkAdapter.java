@@ -443,8 +443,8 @@ public class DrinkAdapter extends RecyclerView.Adapter<DrinkViewHolder> implemen
                     @Override
                     public void onResponse(Call<String> call, Response<String> response) {
                         progressDialog.dismiss();
-                        Toast.makeText(context, "Xóa thành công!", Toast.LENGTH_SHORT).show();
                         ((ActivityDrink)context).loadDrink(((ActivityDrink)context).id_cate);
+                        Toast.makeText(context, "Xóa thành công!", Toast.LENGTH_SHORT).show();
                     }
 
                     @Override

@@ -89,12 +89,16 @@ public class ActivityDrink extends AppCompatActivity {
     String HotUrl = "empty";
     String ColdUrl = "empty";
 
+    RelativeLayout empty_drink_layout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drink);
         mService = Common.getAPI();
         mStorageRef = firebaseStorage.getInstance().getReference();
+        empty_drink_layout = findViewById(R.id.empty_drink_layout);
+        empty_drink_layout.setVisibility(View.GONE);
 
         fab = findViewById(R.id.fab_drink);
         toolbar = findViewById(R.id.tool_bar_drink);
@@ -381,8 +385,13 @@ public class ActivityDrink extends AppCompatActivity {
                 .subscribe(new Consumer<List<Drink>>() {
                     @Override
                     public void accept(List<Drink> drinks) throws Exception {
-                        if(drinks.size() != 0) {
+                        if(drinks.size() > 0) {
+                            empty_drink_layout.setVisibility(View.GONE);
+                            list_drink.setVisibility(View.VISIBLE);
                             displayDrink(drinks);
+                        }else{
+                            list_drink.setVisibility(View.GONE);
+                            empty_drink_layout.setVisibility(View.VISIBLE);
                         }
                     }
                 }));

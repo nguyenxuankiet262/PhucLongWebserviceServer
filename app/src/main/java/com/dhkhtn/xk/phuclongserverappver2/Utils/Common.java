@@ -17,6 +17,7 @@ import java.util.Locale;
 
 public class Common {
     public static final String BASE_URL = "https://phuclongvn.000webhostapp.com/";
+    //public static final String BASE_URL = "http://10.0.2.2/phuclong/";
     public static final String FCM_URL = "https://fcm.googleapis.com/";
     public static boolean checkChooseImageFromAdapter = false;
 

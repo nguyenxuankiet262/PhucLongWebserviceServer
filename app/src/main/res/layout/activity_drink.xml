@@ -24,15 +24,20 @@
                 app:navigationIcon="@drawable/ic_arrow_back_white_24dp"
                 app:titleTextColor="@color/colorWhite"
                 app:titleTextAppearance="@style/CollapsedAppbar"/>
-            <android.support.v7.widget.RecyclerView
-                android:id="@+id/listDrink"
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginTop="2dp"
-                android:scrollbars="vertical"
-                />
+                android:layout_height="match_parent">
+                <include layout="@layout/empty_drink_layout" android:id="@+id/empty_drink_layout"/>
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/listDrink"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="2dp"
+                    android:scrollbars="vertical"
+                    />
+            </RelativeLayout>
         </LinearLayout>
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/fab_drink"
