@@ -40,6 +40,10 @@ public interface IPhucLongAPI {
     Call<String> insertCategory(@Field("name") String name,
                                 @Field("image") String image);
     @FormUrlEncoded
+    @POST("insertbanner.php")
+    Call<String> insertBanner(@Field("name") String name,
+                                @Field("image") String image);
+    @FormUrlEncoded
     @POST("insertdrink.php")
     Call<String> insertDrink(@Field("categoryID") int categoryID,
                              @Field("imageHot") String imageHot,
@@ -65,6 +69,11 @@ public interface IPhucLongAPI {
                                 @Field("image") String image,
                                 @Field("name") String name);
     @FormUrlEncoded
+    @POST("updatebanner.php")
+    Call<String> updateBanner(@Field("id") String id,
+                              @Field("image") String image,
+                              @Field("name") String name);
+    @FormUrlEncoded
     @POST("updatedrink.php")
     Call<String> updateDrink(@Field("id") int id,
                              @Field("imageHot") String imageHot,
@@ -86,6 +95,9 @@ public interface IPhucLongAPI {
     @FormUrlEncoded
     @POST("deletecategory.php")
     Call<String> deleteCategory(@Field("id") int id);
+    @FormUrlEncoded
+    @POST("deletebanner.php")
+    Call<String> deleteBaner(@Field("id") int id);
 
     @FormUrlEncoded
     @POST("deletedrink.php")

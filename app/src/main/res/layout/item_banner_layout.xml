@@ -18,13 +18,13 @@
         >
 
         <ImageView
-            android:id="@+id/image_product"
+            android:id="@+id/image_banner"
             android:layout_width="match_parent"
             android:layout_height="200dp"
             />
 
         <TextView
-            android:id="@+id/text_product"
+            android:id="@+id/name_banner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"

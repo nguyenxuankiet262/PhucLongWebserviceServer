@@ -9,13 +9,17 @@
             android:icon="@drawable/ic_local_drink_black_24dp"
             android:title="Orders" />
         <item
-            android:id="@+id/nav_feedback"
-            android:icon="@drawable/ic_feedback_black_24dp"
-            android:title="Feedbacks" />
-        <item
             android:id="@+id/nav_user"
             android:icon="@drawable/ic_accessibility_black_24dp"
             android:title="Users" />
+        <item
+            android:id="@+id/nav_banner"
+            android:icon="@drawable/ic_image_black_24dp"
+            android:title="Banners" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback_black_24dp"
+            android:title="Feedbacks" />
     </group>
 
     <item android:title="Communicate">

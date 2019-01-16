@@ -136,7 +136,7 @@ public class ActivityStart extends AppCompatActivity {
                 .addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(ActivityStart.this, "" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                        Log.d("EEE", e.getMessage());
                     }
                 });
     }
